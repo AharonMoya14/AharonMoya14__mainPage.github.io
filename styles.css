@@ -1,0 +1,1033 @@
+/*
+ All Rights Reserved
+ This software is property information of AKUREY S.A.
+ Contact us at contact@akurey.com
+ @summary Task 3 css code
+*/
+.general{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+}
+.bigLogoContainer{
+    z-index: 1;
+    position: absolute;
+    display: none;
+    width: 163px;
+    margin: 0 auto;
+    margin-top: 78.2051282vw;
+    height: 58px;
+}
+.bigLogo{
+    display: flex;
+    width: 163px; 
+    height: 58px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    height: 78px;
+    justify-content: center;
+}
+.hamburgerMenu{
+    display:none;
+    position: absolute;
+    flex-direction: column;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 3px #F3F3F3;
+    width: 100%;
+    height: 406px;
+    z-index: 1;
+    justify-content: center;
+}
+.navbarMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    align-items: center;
+}
+.navbarText{
+    white-space: nowrap;
+    height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #575757;
+    text-decoration: none;
+}
+.navbarText__active{
+    color: #0C75AF;
+}
+.languageHamburger{
+    width: 169px;
+    height: 30.79px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    left: 19px;
+}
+.menu__open{
+    width: 18px;
+    height: 16px;
+}
+.mainLogo{
+    position: absolute;
+    height: 40px;
+    margin: auto;
+}
+.navbar{
+    display: none;
+}
+.sinopsisBackgroundContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.background{
+    display: flex;
+    width: 100%;
+    height: 66.666vw;
+    position: relative;
+    margin: 0 auto;
+}
+.backgroundImgTablet{
+    display: none;
+}
+.backgroundImg{
+    display: flex;
+    width: 100%;
+    height: 66.666vw;
+    position: absolute;
+}
+.backgroundImg2{
+    display: none;
+}
+.whiteFade{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 163px;
+    left: 0px;
+    align-self: flex-end;
+    margin-bottom: -1px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 85%);
+}
+.whiteFade__moreGradient{
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 91.54%);
+}
+.sinopsisContainer{
+    display: flex;
+    background: transparent;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+.sinopsis{
+    display: flex;
+    width: 91.7948718%;
+    height: auto;
+    margin: 58px auto 48px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px #B8E1FF;
+    border-radius: 6px; 
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+.sinopsis__moreMarginTop{
+    margin-top: 19px;
+}
+.sinopsis__title{
+    width: 95.5307263%;
+    height: 28px;
+    margin: 8px auto 0px auto;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.sinopsis__paragraph{
+    width: 95.5307263%;
+    height: auto;
+    margin: 16px auto 16px auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.sinopsis__paragraph__hidden{
+    display:none;
+    margin-top: 0px;
+    height: auto;
+}
+.line{
+    width: 95.5307263%;
+    margin-top: 8px;
+    background-color: #0C75AF;
+    border-color: #0C75AF;
+    height: 0px;
+    border-top: 0.5px;
+
+}
+
+.readAll{
+    position: relative;
+    display: flex;
+    height: 24px;
+    margin: 8px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.readAll__text{
+    margin:0px;
+    width: 67px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #0C75AF;
+    white-space: nowrap;
+}
+.readAll__image{
+    margin-right: 22px;
+    width: 12px;
+    height: 6px;
+
+    
+}
+.textBoxSearch{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto; 
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    width: 91.7948718%;
+    height: 56px;
+    border: 1px solid #B5B5B5;
+    border-radius: 6px;
+    margin-bottom: 48px;
+}
+.textBoxSearch__image{
+    position: absolute;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.textBoxSearch__text{
+    position: absolute;
+    width: 275px;
+    height: 20px;
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    color: #7D7D7D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.objectHeader{
+    position: relative;
+    display: flex;
+    width: 91.7948718%;
+    height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.objectHeader__title{
+    position: absolute;
+    width: 94px;
+    height: 24px;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    white-space: nowrap;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #171717;
+}
+.objectHeader__seeAll
+{
+    width: 49px;
+    height: 20px;
+    margin: 0 auto;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #0C75AF;
+}
+
+.characters{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px;
+    gap: 20px;
+    width: 91.7948718%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    overflow-x: scroll;
+}
+
+.characters__card__name{
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 32px;
+    top: 175px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;   
+}
+
+.characters__card{
+    display: flex;
+    position: relative;
+    width: 181.94px;
+    height: 231px;
+}
+.characters__card__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: linear-gradient(179.8deg, rgba(255, 255, 255, 0) 50.33%, #000000 97.62%);
+    mix-blend-mode: multiply;
+    border-radius: 13.0337px;
+}
+.characters__card__image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 16.354px;
+}
+
+.islandsCard__dataContainer__text1{
+    margin: 0px;
+    margin-top: 8px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.islandsCard__dataContainer__text2{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.4px;
+    color: #F4F4F4;
+}
+.islandsCard{
+    position: relative;
+    width: 194px;
+    height: 193px;
+}
+.islandsCard__dataContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 178px;
+    height: auto;
+    left: 8px;
+    top: 137px;
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(2px);
+    border-radius: 6px;
+}
+.islandsCard_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border-radius: 8px;
+}
+.islandsCard__dataContainer__image{
+    width: 7.5px;
+    height: 9.05px;
+    margin-left: 14.25px;
+}
+
+.mistObjects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+    gap: 20px;
+    width: 91.7948718%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 130px;
+
+}
+.mistObject__moreMarginBottom{
+    margin-bottom: 70px;
+}
+.mistObjects__card__textContainer__text1{
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.mistObjects__card__textContainer__text2{
+    width: 224.67px;
+    height: 96px;
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #F4F4F4;
+}
+.mistObjects__card{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 358px;
+    height: 132px;
+}
+.mistObjects__card__hidden{
+    display: none;
+}
+.mistObjects__card__textContainer{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    gap: 4px;
+    position: absolute;
+    width: 240.67px;
+    height: 132px;
+    margin-left: 117.33px;
+    top: 0px;
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(2px);
+    border-radius: 0px 6px 6px 0px;
+}
+.mistObjects__card__image{
+    position: absolute;
+    width: 174.49px;
+    height: 132px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+}
+
+.endSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    width: 100%;
+    height: 271px;
+    background: #0C75AF;
+}
+.skull{
+    width: 97px;
+    height: 89px;
+    margin-top: 48px;
+}
+.textEnd{
+    margin: 0;
+    width: 286px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 675px) {
+    .islandsCard__dataContainer__text1{
+        margin-top: 4.25px;
+        margin-left: 15.47px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .islandsCard__dataContainer__text2{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+    }
+    .islandsCard{
+        width: 200.03px;
+        height: 199px;
+    }
+    .islandsCard__dataContainer{
+        width: 183.51px;
+        left: 8.25px;
+        top: 141.24px;
+        border-radius: 6.18557px;
+    }
+    .islandsCard_image{
+        border-radius: 8.2487px;
+    }
+    .islandsCard__dataContainer__image{
+        width: 7.73px;
+        height: 9.33px;
+        margin-left: 14.69px;
+    }
+    .bigLogoContainer{
+        z-index: 1;
+        position: absolute;
+        display: none;
+        width: 163px;
+        margin: 0 auto;
+        margin-top: 75vw;
+        height: 58px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .mistObjects__card__hidden{
+        display: flex;
+    }
+    .mistObjects{
+    
+        grid-template-columns: repeat(2,1fr);
+        width:  91.7948718%;
+        margin-bottom: 42px;
+    }
+    .mistObjects__card__textContainer__text1{
+        width: 145px;
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .mistObjects__card__textContainer__text2{
+        width: 184px;
+        height: 135px;
+        margin: 0px;
+        margin-top: 4px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #F4F4F4;
+
+    }
+    .mistObjects__card{
+        margin: 0;
+        width: 310px;
+        height: 175px;
+    }
+    
+    .mistObjects__card__textContainer{
+        width: 200px;
+        height: 175px;
+        margin-left: 110px;
+    }
+    .mistObjects__card__image{
+        width: 181px;
+        height: 175px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hamburgerMenu{
+        top: 107px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .background{
+        width: 100%;
+        position: absolute;
+        height: 57.8125vw;
+        z-index: -1;
+        top: 109px;
+    }
+    
+    .backgroundImg{
+        display:none;
+        
+    }
+    .backgroundImgTablet{
+        display: flex;
+        height: 57.8125vw;  
+    }
+    .whiteFade{
+        display: none;
+    }
+    .header{
+        height: 109px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .mainLogo{
+        height: 58px;
+    }
+    .sinopsisContainer{
+        width: 83.3333333%;
+        padding-top: 50.390625vw;
+    }
+    .sinopsis{
+        width: 100%;
+        top: 367px;
+        margin-top: 0px;
+        margin-bottom: 32px;
+    }
+    .sinopsis__moreMarginTop{
+        margin-top: 0px;
+    }
+    .sinopsis__title{
+        width: 97.5%;
+    }
+    .sinopsis__paragraph{
+        width: 97.5%;
+    }
+    .line{
+        width: 97.5%;
+    }
+    .bigLogo{
+        display: none;
+    }
+    .textBoxSearch{
+        width: 83.3333333%;
+        margin-bottom: 32px;
+    }
+    .objectHeader{
+        width: 83.3333333%;
+    }
+
+    .characters{
+        width: 83.3333333%;
+        margin-bottom: 64px;
+    }
+    .characters__card{
+        width: 145px;
+        height: 184.1px;    
+    }
+    .characters__card__image{
+        border-radius: 13.0337px;
+    }
+    .characters__card__name{
+        height: 25.5px;
+        top: 139.47px;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .islandsCard__dataContainer__text1{
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .mistObjects{
+        width:  83.3333333%;
+    }
+    .endSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .skull{
+        margin-top: 0;
+    }
+    .textEnd{
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .characters__card__name{
+        position: absolute;
+        white-space: nowrap;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 36.23px;
+        top: 212.57px;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: 0.1375px;
+        color: white;
+    
+    }
+    
+    .characters__card{
+        position: relative;
+        width: 219.74px;
+        height: 279px;    
+    }
+    .gradientRectangle{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background: linear-gradient(179.8deg, rgba(255, 255, 255, 0) 50.33%, #000000 97.62%);
+        mix-blend-mode: multiply;
+        border-radius: 20.5295px;
+    }
+    .characters__card__image{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        border-radius: 20.5295px;
+
+    }
+    .islandsCard__dataContainer__text1{
+        margin: 12.37px auto 0 23.2px;
+        width: 119.09px;
+        height: 24.75px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .islandsCard__dataContainer__text2{
+        width: 95.89px;
+        height: 24.75px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 8.12px;
+        letter-spacing: 0.15px;
+        align-self: center;
+    }
+    .islandsCard{
+        width: 300.05px;
+        height: 298.5px;
+    }
+    .islandsCard__dataContainer
+    {
+        width: 275.3px;
+        height: 74.24px;
+        left: 12.37px;
+        top: 211.89px;
+        background: rgba(0, 96, 150, 0.59);
+        backdrop-filter: blur(3.09326px);
+        border-radius: 9.27979px;
+    }
+    .islandsCard_image
+    
+    {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        border-radius: 12.3731px;
+    }
+    .islandsCard__dataContainer__image{
+        width: 11.6px;
+        height: 14px;
+        margin: auto 0 auto 22.04px;
+
+    }
+    
+    .mistObjects__card__textContainer__text1{
+        margin: 11.9px auto 0px 11.9px;
+        width: 175.48px;
+        height: 23.79px;    
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+    .mistObjects__card__textContainer__text2{
+        margin: auto auto 11.9px 11.9px;
+        width: 273.63px;
+        height: 200.76px;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .mistObjects__card{
+        width: 461px;
+        height: 254.29px;
+    }
+    .mistObjects__card__textContainer{
+        gap: 5.95px;
+        width: 297.42px;
+        height: 254.29px;
+        margin-left: 163.58px;
+        backdrop-filter: blur(2.97419px);
+        border-radius: 0px 8.92258px 8.92258px 0px;
+    }
+    .mistObjects__card__image{
+        width: 263.22px;
+        height: 254.29px;
+        border-radius: 11.8968px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header{
+        width: auto;
+        height: 100px;
+        margin: 0px auto 0px 13.28125vw;
+        justify-content: flex-start;
+    }
+    .menu{
+        display: none;
+    }
+    .mainLogo{
+        position: absolute;
+        width: 163px;
+        height: 58px;
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        position: absolute;
+        width: auto;
+        height: 30.79px;
+        left: 232px;
+        top: 35px;
+    }
+    .language{
+        width: 90px;
+        height: 30.79px;
+    }
+
+    .sinopsisBackgroundContainer{
+        display: flex;
+        flex-wrap: row;
+        margin: 0 auto 48px auto;
+        align-self: flex-start;
+        height: 49.0625vw;
+        width: 73.4375%;
+        border-radius: 16px 0px 0px 16px;
+    }
+    .background{
+        display: flex;
+        width: 50%;
+        height: 49.0625vw;
+        margin-top: 0px;
+        top: 100px;
+    }
+    .backgroundImg2{
+        margin: 0px;
+        display: flex;
+        width: 100%;
+        height: 49.0625vw;
+        border-radius: 16px 0px 0px 16px;
+    }
+    .backgroundImg{
+        display: none;
+    }
+    .backgroundImgTablet{
+        display: none;  
+    }
+    .whiteFade{
+        display: none;
+    }
+    .sinopsisContainer{
+        height: 49.0625vw;
+        background: transparent;
+        padding-top: 0px;
+        margin: 0 0 0 auto;
+        width: 31.9148936%;
+        filter: drop-shadow(0px 0px 8px #B8E1FF);
+        border-radius: 0px 6px 6px 0px;
+    }
+    .sinopsis{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 0; 
+        flex-direction: column;
+        text-align: left;
+        border-radius: 0px 6px 6px 0px;
+    }
+    .sinopsis__title{
+        width: 268px;
+        height: 28px;
+        margin: 32px 16px 16px 16px;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .sinopsis__paragraph{
+        width: 268px;
+        height: auto;
+        margin: 0px 16px 16px 16px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        color: #000000;
+        
+    }
+    .sinopsis__paragraph__hidden{
+        width: 268px;
+        height: auto;
+        display:flex;
+        margin: 0px 16px 72px 16px;
+    }
+    .line{
+        display: none;
+    }
+    
+    .readAll{
+        display: none;
+    }
+    
+    .readAll__text{
+        display: none;
+    }
+    .readAll__image{
+        margin-right: 22px;
+        left: 25%;
+        right: 25%;
+        top: 37.5%;
+        bottom: 37.5%;
+        
+    }
+
+    .textBoxSearch{
+        width: 73.4375%;
+        margin-bottom: 48px;
+    }
+
+    .objectHeader{
+        height: 36px;
+        width: 73.4375%;
+        margin-bottom: 32px;
+    }
+    .objectHeader__title{
+        width: 143px;
+        height: 36px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .characters{
+        width: 73.4375%;
+    }
+    
+    .mistObjects{
+        width: 73.4375%;  
+        margin-bottom: 70px;  
+    }
+    .hamburgerMenu{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,187 @@
+<!--
+ All Rights Reserved
+ This software is property information of AKUREY S.A.
+ Contact us at contact@akurey.com
+ @summary Task 3 html code  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTraining</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body class="general">
+    <section class="bigLogoContainer">
+        <img src="Assets/BigLogo.png" class="bigLogo">
+    </section>
+    <section class="header">
+        <img src="Assets/menu.png" class="menu menu__open">
+        <img src="Assets/LittleLogo.png" class="mainLogo">
+        <nav class="navbar">
+            <a href="#" class="navbarText navbarText__active" style="width: 51px;">Home</a>
+            <a href="#" class="navbarText" style="width: 94px;">Characters</a>
+            <a href="#" class="navbarText" style="width: 63px;">Islands</a>
+            <a href="#" class="navbarText" style="width: 108px;">Mist Objects</a>
+            <div style="display: flex; flex-direction: row; gap: 20px;">
+                <img src="Assets/English.png" class="language">
+                <img src="Assets/Spanish.png" class="language">
+            </div>
+        </nav>
+    </section>
+    <section class="hamburgerMenu">
+        <nav class="navbarMobile">
+            <a href="#" class="navbarText navbarText__active" style="width: 51px;">Home</a>
+            <a href="#" class="navbarText" style="width: 94px;">Characters</a>
+            <a href="#" class="navbarText" style="width: 63px;">Islands</a>
+            <a href="#" class="navbarText" style="width: 108px;">Mist Objects</a>
+        </nav>
+        <div style="display: flex; flex-direction: row; gap: 20px;margin: 0 auto;">
+            <img src="Assets/EnglishHamburger.png" class="languageHamburger">
+            <img src="Assets/SpanishHamburger.png" class="languageHamburger">
+        </div>
+    </section>
+    <section class="sinopsisBackgroundContainer">
+        <section class="background">
+            <img src="Assets/Background.png" class="backgroundImg">
+            <img src="Assets/Background2.png" class="backgroundImg2">
+            <img src="Assets/BackgroundTablet.png" class="backgroundImgTablet">
+            <div class="whiteFade whiteFade__moreGradient"></div>
+        </section>
+        <div class="sinopsisContainer">
+            <section class="sinopsis sinopsis__moreMarginTop">
+                <div>
+                    <h3 class="sinopsis__title">Sinopsis</h3>
+                    <p class="sinopsis__paragraph">
+                        Dawn Island is an island located in the East Blue and where the Goa Kingdom is situated. <br><br>
+                        It is the home island of Monkey D. Luffy and the starting point of his journey into piracy,
+                        as well as the home island of his father, Monkey D. Dragon
+                    </p>
+                    <p class="sinopsis__paragraph sinopsis__paragraph__hidden">This is also the adopted home of Portgas D. Ace after the death of his mother and the home of Sabo and his family.
+                        <br><br> Reverse Mountain is an extremely tall mountain at one of the points where the four Blues meet and is one of the two known entrances to the Grand Line.
+                        <br><br> It is located in the Red Line and is the geographical antipode of Mary Geoise.</p>
+                    <hr class="line">
+                </div>
+                <div class="readAll">
+                    <img src="Assets/ReadAllVector.png" class="readAll__image">
+                    <p class="readAll__text">Read All</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="textBoxSearch">
+        <img src="Assets/Search.png" class="textBoxSearch__image" >
+        <textarea name="textBoxSearch__text" class="textBoxSearch__text" rows="1">Search Characters, Islands or Objects
+        </textarea>
+    </section>
+    <section class="objectHeader">
+        <p class="objectHeader__title">Characters</p>
+        <p class="objectHeader__seeAll">See all</p>
+    </section>
+    <section class="characters">
+        <div class="characters__card">
+            <img src="Assets/Luffy.png" class="characters__card__image">
+            <div class="characters__card__gradient"></div>
+            <h3 class="characters__card__name">Monkey D.Luffy</h3>
+        </div>
+        <div class="characters__card">
+            <img src="Assets/Ace.png" class="characters__card__image">
+            <div class="characters__card__gradient"></div>
+            <h3 class="characters__card__name">Portgas D. Ace</h3>
+        </div>
+        <div class="characters__card">
+            <img src="Assets/Zoro.png" class="characters__card__image">
+            <div class="characters__card__gradient"></div>
+            <h3 class="characters__card__name">Rorornoa Zoro</h3>
+        </div>
+        <div class="characters__card">
+            <img src="Assets/Robin.png" class="characters__card__image">
+            <div class="characters__card__gradient"></div>
+            <h3 class="characters__card__name">Nico Robin</h3>
+        </div>
+    </section>
+
+    <section class="objectHeader">
+        <p class="objectHeader__title">Islands</p>
+        <p class="objectHeader__seeAll">See all</p>
+    </section>
+    <section class="characters" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="islandsCard">
+            <img src="Assets/Island1.png" class="islandsCard_image">
+            <div class="islandsCard__dataContainer">
+                <h3 class="islandsCard__dataContainer__text1">Dawn Island</h3>
+                <div style="display: flex; align-items: center;margin-bottom: 8px;">
+                    <img src="Assets/LocationIcon.png" class="islandsCard__dataContainer__image">
+                    <h3 class="islandsCard__dataContainer__text2">East Blue</h3>
+                </div>
+            </div>
+            
+        </div>
+        <div class="islandsCard">
+            <img src="Assets/Island2.png" class="islandsCard_image">
+            <div class="islandsCard__dataContainer">
+                <h3 class="islandsCard__dataContainer__text1">Reverse Mountain</h3>
+                <div style="display: flex; align-items: center;margin-bottom: 8px;">
+                    <img src="Assets/LocationIcon.png" class="islandsCard__dataContainer__image">
+                    <h3 class="islandsCard__dataContainer__text2">Red Line</h3>
+                </div>
+            </div>
+        </div>
+        <div class="islandsCard">
+            <img src="Assets/Island2.png" class="islandsCard_image">
+            <div class="islandsCard__dataContainer">
+                <h3 class="islandsCard__dataContainer__text1">Reverse Mountain</h3>
+                <div style="display: flex; align-items: center;margin-bottom: 8px;">
+                    <img src="Assets/LocationIcon.png" class="islandsCard__dataContainer__image">
+                    <h3 class="islandsCard__dataContainer__text2">Red Line</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="objectHeader">
+        <p class="objectHeader__title">Mist Objects</p>
+        <p class="objectHeader__seeAll">See all</p>
+    </section>
+    <section class="mistObjects mistObject__moreMarginBottom">
+        <div class="mistObjects__card">
+            <img src="Assets/MistImage.png" class="mistObjects__card__image">
+            <div class="mistObjects__card__textContainer">
+                <h3 class="mistObjects__card__textContainer__text1">Gomu Gomu No Mi</h3>
+                <p class="mistObjects__card__textContainer__text2">Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy.</p>
+            </div>
+        </div>
+        <div class="mistObjects__card">
+            <img src="Assets/MistImage.png" class="mistObjects__card__image">
+            <div class="mistObjects__card__textContainer">
+                <h3 class="mistObjects__card__textContainer__text1">Gomu Gomu No Mi</h3>
+                <p class="mistObjects__card__textContainer__text2">Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy.</p>
+            </div>
+        </div>
+        <div class="mistObjects__card">
+            <img src="Assets/MistImage.png" class="mistObjects__card__image">
+            <div class="mistObjects__card__textContainer">
+                <h3 class="mistObjects__card__textContainer__text1">Gomu Gomu No Mi</h3>
+                <p class="mistObjects__card__textContainer__text2">Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy.</p>
+            </div>
+        </div>
+        <div class="mistObjects__card mistObjects__card__hidden">
+            <img src="Assets/MistImage.png" class="mistObjects__card__image">
+            <div class="mistObjects__card__textContainer">
+                <h3 class="mistObjects__card__textContainer__text1">Gomu Gomu No Mi</h3>
+                <p class="mistObjects__card__textContainer__text2">Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy.</p>
+            </div>
+        </div>
+    </section>
+    <section class="endSection">
+        <img src="Assets/Skull.png" class="skull">
+        <p class="textEnd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit at vel congue scelerisque tortor tortor.</p>
+    </section>
+</body>
+<script src="code.js"></script>
+</html>
